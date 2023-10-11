@@ -1,0 +1,67 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.header-background{
+    background-image: url("../ressources/img/ice-header-bg.jpg");
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-title{
+    margin: auto;
+    padding: 140px;
+    width: 50%;
+    text-align: center;
+}
+.header-title h1{
+    color: #F9F9F9;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Krona One", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 900px;
+}
+.logo-walrus{
+    width: 140px;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+.logo-walrus img{
+  width: 100%;
+}
+.header-text{
+    margin: 130px auto auto;
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+}
+.header-text p{
+    color: #F9F9F9;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Krona One", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 900px;
+}
+.oval-bg{
+    background-color: #496a85;
+    display: flex;
+    width: 832px;
+    height: 64px;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 64px;
+    text-align: center;
+}
