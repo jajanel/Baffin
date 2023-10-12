@@ -1,67 +1,235 @@
-
 body, html {
     height: 100%;
     margin: 0;
+    scroll-behavior: smooth;
+
 }
-.header-background{
-    background-image: url("../ressources/img/ice-header-bg.jpg");
+
+.header-background {
+    background-image: url("../ressources/img/1st-bg-header.jpg");
     height: 100%;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: -999;
 }
-.header-title{
-    margin: auto;
-    padding: 140px;
+
+
+
+.header{
+    height: 100px;
+}
+
+.header {
+
+}
+
+.hamburger-logo {
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    z-index: 10; /* Set a higher z-index value */
+
+}
+ul{
+    padding-inline-start: 0px;
+    margin-block-start: 0em;
+}
+
+
+#navOpen{
+    padding-top: 16px;
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 10; /* Set a higher z-index value */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #0f191e; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 1s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.closebtn{
+    font-size: 45px;
+}
+
+#navOpen .list a{
+    padding: 22px 32px 12px 32px;
+    text-decoration: none;
+    font-family: "Krona One", sans-serif;
+    text-align: left;
+    font-size: 18px;
+    color: #f7f7f7;
+    display: block;
+    transition: 0.3s;
+}
+
+
+.closebtn{
+    padding: 8px 32px 12px 32px;
+    text-decoration: none;
+    font-family: "Krona One", sans-serif;
+    text-align: left;
+    font-size: 18px;
+    color: #f7f7f7;
+    display: block;
+    transition: 0.3s;
+}
+#navOpen .smaller-list a{
+    padding: 12px 32px 12px 32px;
+    text-decoration: none;
+    font-family: "Krona One", sans-serif;
+    text-align: left;
+    font-size: 16px;
+    color: #9b9b9b;
+    display: block;
+    transition: 0.3s;
+    margin-left: 16px;
+}
+
+#navOpen a:hover {
+    color: #4f738c;
+}
+
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    margin-left: 50px;
+}
+
+
+
+
+.header-title {
+    height: 500px;
+}
+
+.header-title h1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 50%;
-    text-align: center;
-}
-.header-title h1{
+    margin-top: 12px;
     color: #F9F9F9;
     text-align: center;
-    leading-trim: both;
-    text-edge: cap;
     font-family: "Krona One", sans-serif;
-    font-size: 48px;
-    font-style: normal;
+    font-size: 56px;
     font-weight: 400;
     line-height: normal;
     max-width: 900px;
+    min-width: 850px;
 }
-.logo-walrus{
-    width: 140px;
+
+.logo-walrus {
+    width: 100px;
     position: absolute;
-    top: 12px;
+    top: 0px;
     right: 12px;
+
 }
-.logo-walrus img{
-  width: 100%;
+
+.logo-walrus img {
+    width: 100%;
+
 }
-.header-text{
-    margin: 130px auto auto;
-    width: 50%;
-    text-align: center;
-    padding: 50px;
+
+.header-text {
+    height: 300px;
+
+
+
 }
-.header-text p{
-    color: #F9F9F9;
-    text-align: center;
-    leading-trim: both;
-    text-edge: cap;
+
+.header-text a {
+    color: #d6dade;
     font-family: "Krona One", sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
-    max-width: 900px;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
 }
-.oval-bg{
-    background-color: #496a85;
+
+a:hover{
+    color: #0f191e;
+
+}
+
+.oval-container {
+    background-color: #7b97af;
+    border: #0f191e 5px solid;
     display: flex;
     width: 832px;
     height: 64px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 64px;
+}
+
+.oval-container2{
+    background-color: #11272d;
+    border: #11272d 5px solid;
+
+    display: flex;
+    width: 832px;
+    height: 64px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 64px;
+}
+
+
+.second-background {
+    background: #bcc7cc;
+    height: 1000px;
+}
+
+.header-text2{
+    padding-top: 140px;
+}
+
+.header-text2 p{
+    color: #F9F9F9;
+    font-family: "Krona One", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    margin: auto;
+}
+
+.main-text{
+    margin: 64px auto;
+    display: flex;
+    width: 716px;
     flex-direction: column;
     justify-content: center;
-    border-radius: 64px;
-    text-align: center;
 }
+
+.main-text p{
+    text-align: center;
+    color: #1D262D;
+    font-family: "Krona One", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+
+}
+
+
+.main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+}
+
+
+
+
+
+
+
+
