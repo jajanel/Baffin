@@ -5,6 +5,14 @@ body, html {
 
 }
 
+a{
+    text-decoration: none;
+}
+
+p{
+    margin: 0;
+}
+
 .header-background {
     background-image: url("../ressources/img/1st-bg-header.jpg");
     height: 100%;
@@ -12,21 +20,23 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -999;
+    padding-top: 110px;
 }
 
 
 
 .header{
-    height: 100px;
+    height: 90px;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
 }
 
-.header {
 
-}
 
 .hamburger-logo {
     position: absolute;
-    top: 60px;
+    top: 30px;
     left: 50px;
     z-index: 10; /* Set a higher z-index value */
 
@@ -100,19 +110,41 @@ ul{
     margin-left: 50px;
 }
 
+.central-text-header a p{
+    text-align: center;
+    font-family: "Krona One", sans-serif;
+    padding-top: 20px;
+    color: #0f191e;
+    font-size: 36px;
+    text-decoration: none;
+}
 
+
+.logo-walrus {
+    width: 80px;
+    position: absolute;
+    top: 2px;
+    right: 12px;
+    z-index: 10; /* Set a higher z-index value */
+
+}
+
+.logo-walrus img {
+    width: 100%;
+
+}
 
 
 .header-title {
-    height: 500px;
+    height: 540px;
 }
 
 .header-title h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0px;
     width: 50%;
-    margin-top: 12px;
     color: #F9F9F9;
     text-align: center;
     font-family: "Krona One", sans-serif;
@@ -123,18 +155,6 @@ ul{
     min-width: 850px;
 }
 
-.logo-walrus {
-    width: 100px;
-    position: absolute;
-    top: 0px;
-    right: 12px;
-
-}
-
-.logo-walrus img {
-    width: 100%;
-
-}
 
 .header-text {
     height: 300px;
@@ -190,9 +210,16 @@ a:hover{
     height: 1000px;
 }
 
+
+
+
 .header-text2{
-    padding-top: 140px;
+    padding-top: 200px;
 }
+
+
+
+
 
 .header-text2 p{
     color: #F9F9F9;
